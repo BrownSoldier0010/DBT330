@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" fx:id="anchorPane" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="593.0" prefWidth="683.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPage">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="320.0" layoutX="510.0" layoutY="52.0" stroke="BLACK" strokeType="INSIDE" width="173.0" />
+      <Label layoutX="511.0" layoutY="76.0" text="Name:" />
+      <TextArea fx:id="NameBox" editable="false" layoutX="572.0" layoutY="63.0" prefHeight="31.0" prefWidth="111.0" />
+      <Label layoutX="510.0" layoutY="117.0" text="Birth/Death" />
+      <TextArea fx:id="BirthBox" editable="false" layoutX="510.0" layoutY="138.0" prefHeight="21.0" prefWidth="173.0" />
+      <Label fx:id="NameLabel" layoutY="31.0" text="NameLabel" />
+      <TextArea fx:id="Summary" editable="false" layoutY="62.0" prefHeight="218.0" prefWidth="297.0" />
+      <Label layoutY="287.0" text="Summary" />
+      <TextArea fx:id="Othertext" editable="false" layoutY="308.0" prefHeight="188.0" prefWidth="297.0" />
+      <Button fx:id="selectPage" layoutX="75.0" layoutY="528.0" mnemonicParsing="false" onMouseClicked="#selectPage" text="Select Page" />
+      <Button fx:id="generatePage" layoutX="446.0" layoutY="528.0" mnemonicParsing="false" onMouseClicked="#generatePage" text="Generate Page" />
+   </children>
+</AnchorPane>
